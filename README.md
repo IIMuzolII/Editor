@@ -1,3 +1,3 @@
 # Rcrypt
 A Decrypt and encrypt RSA in python.
-If has something to improve please tell me.
+If you have something to improve please tell me.
