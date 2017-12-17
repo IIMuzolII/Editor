@@ -9,7 +9,7 @@ class Math():
             Generate a prime number and return a random prime number
         """
         primes = []
-        for i in range(10000, 20000):
+        for i in range(10000000, 90000000):
             cont = 0
             for j in range(1, i+1):
                 if i % j == 0:
@@ -94,5 +94,3 @@ class Rencrypt():
             string_decrypt += chr(crypt)
 
         return string_decrypt
-print(Math.totiene(13, 17))
-print(Math.congruente_modular(3, 256))
