@@ -10,7 +10,7 @@ def factorial(x):
     if x == 0 or x == 1:
         return 1
     else:
-        return x * fatorial(x - 1)
+        return x * factorial(x - 1)
 
 word = input("Type the word here: ")
 len_word = len(word)
