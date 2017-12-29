@@ -27,6 +27,6 @@ for i in range(word_fact):
 
     if len(anagrama) == len_word:
         print(anagrama)
-        with open('Anagrama.txt', 'a') as fl:
+        with open('Anagram.txt', 'a') as fl:
             fl.write(anagrama+'\n')# Open a file 'Anagram' and write the word in it
         anagrama = ''
