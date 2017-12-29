@@ -1,3 +1,3 @@
-Anagramx
+# Anagramx
 
-It's a simple Anagram coder.
+It's a simple Anagram coder, made in python.
