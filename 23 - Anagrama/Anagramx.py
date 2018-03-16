@@ -12,7 +12,11 @@ def factorial(x):
     else:
         return x * factorial(x - 1)
 
-word = input("Type the word here: ")
+try:
+    word = input("Type the word here: ")
+except:
+    print("ERROR INVALID INPUT")
+    
 len_word = len(word)
 anagrama = ''
 word_fact = factorial(len_word)
