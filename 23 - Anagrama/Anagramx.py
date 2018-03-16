@@ -1,4 +1,4 @@
-#The anagramx file generate all the possibility of a word be mix
+#The anagramx file generate all the possibility of a word be mixed
 #Last Update: 12/29/2017
 
 import random
